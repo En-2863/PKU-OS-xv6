@@ -1,0 +1,6 @@
+thread operation
+   1     put
+   2     put
+   1     insert
+   2     insert
+explanation: both two threads need to hash key-value to the same table entry(i), and two threads get the same entry so one of the key-value will overwrite the other, causing the latter one missing.
