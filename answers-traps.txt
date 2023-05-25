@@ -1,0 +1,6 @@
+Q1: a0, a1, a2, a3... a3 holds 13 in main's call to printf.
+Q2: There is no calls to function f and g, for compiler uses the inline function.
+Q3: ra = 0x30, ra + 1554 = 1608/0x648, located in address 0x648.
+Q4: the return address 0x38.
+Q5: outout: He110 World ; unsigned int i = 0x726c6400 ; no, because there is no difference in interpreting the hex of 57616.
+Q6: the output is depending on the corresponding input register. 
